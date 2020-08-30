@@ -14,7 +14,7 @@ public class Controller {
     public TextField textField;
 
 
-    public void onClickSendText(ActionEvent actionEvent) {
+    public void onClickSendText() {
         textArea1.appendText(textField.getText() + "\n");
         textField.clear();
         textField.requestFocus();
